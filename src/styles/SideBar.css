@@ -1,0 +1,74 @@
+#folderLst{
+    list-style-type: none;
+    margin-top: 1%; 
+    text-align: left;
+    align-content: left;
+}
+#head{
+    color: #4C4E50;
+}
+#head:hover{
+    color: #7ED321;
+    text-decoration: none;
+}
+hr{
+    max-width: 100px;
+    border-color: lightgrey;
+}
+#folderLst li a{
+    color: #4C4E50;
+    text-decoration: none;
+}
+#folderLst li{
+    margin-bottom: 20px;
+}
+#folderLst li:hover a{
+    color: #7ED321;
+    text-decoration: none;
+}
+#toggler {
+    color: #4C4E50;
+}
+#toggler:hover {
+    color: #7ED321;
+} 
+#tooltip{
+    display: inline;
+    position: relative;
+    text-align: center;
+}
+#tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(info);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    max-width: 200px;
+}
+#tooltip:hover:before{
+    border: solid;
+    border-color: black transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+#newFolder:focus{
+    outline-color: #7ED321 !important;
+}
+#closeFolder{
+    display: none;
+    font-size: 18px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+#folderLst li:hover #closeFolder{
+    display: inline;
+}

@@ -1,0 +1,92 @@
+#card{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    padding: 0%;
+    margin-left: 2%;
+    margin-right: 0%;
+    margin-bottom: 2%;
+    box-shadow: 5px 3px 10px grey;
+    color: #4C4E50;
+}
+#header{
+    background-color: white;
+    width: 300px;
+    min-height: 12%;
+}
+#folderboxes{
+    width: 300px;
+    align-content: left;
+    text-align: left;
+    position: relative;
+    max-height:80%;
+    background-color: #4C4E50;
+    bottom: 0;
+    display: inline-block;
+    flex-direction: column;
+    overflow: scroll;
+    color: white;
+    line-height: 30px;
+    z-index: 0;
+    transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: cubic-bezier(1, 1, 1, 1);
+}
+#folderboxes input{
+    position: relative;
+    left: 40%;
+    transform: translate(-50%); 
+}
+#folderboxes p{
+    left: 40%;
+    transform: translate(-50%); 
+    display: inline;
+    padding-left: 10px;
+    overflow-y: auto;
+    position: relative;
+}
+#forward{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #7ED321;
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+input[type="checkbox"]:checked{
+    background: #7ED321 !important;
+}
+#footer{
+    text-align: left;
+    font-size: 0.8em;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 300px;
+    min-height: 12%;
+}
+#footer p{
+    position: absolute;
+    vertical-align: middle;
+    margin-top: 3%; 
+}
+#card:hover{
+    box-shadow: 5px 3px 15px grey;
+}
+#card:hover #footSpan{
+    margin-top: 3%;
+    display: block;
+}
+#card .formEl{
+    display: block;
+}
+#footer span{
+    display: none;
+}
+
+
+
+

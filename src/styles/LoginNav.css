@@ -1,0 +1,17 @@
+#signup{
+    background-color: #7ED321;
+    margin-top: 10%;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px
+}
+#signup:hover{
+    background-color: #4C4E50
+}
+#Nav{
+    margin-bottom: 0;
+    border: none;
+    background-color: white;
+}
